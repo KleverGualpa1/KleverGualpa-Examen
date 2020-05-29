@@ -27,7 +27,7 @@ EditText et1, et2;
 
             Intent inttento = new Intent(this, Registro.class);
             inttento.putExtra("dato",et1.getText().toString());
-            Toast.makeText(getApplicationContext(),"Ingreso correcto", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Ingreso correcto ", Toast.LENGTH_SHORT).show();
             startActivity(inttento);
         }
         else{
