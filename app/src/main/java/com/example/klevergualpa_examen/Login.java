@@ -35,7 +35,5 @@ EditText et1, et2;
             Toast.makeText(getApplicationContext(),"Usuario o Clave incorrectos",Toast.LENGTH_SHORT).show();
         }
 
-
-
     }
 }

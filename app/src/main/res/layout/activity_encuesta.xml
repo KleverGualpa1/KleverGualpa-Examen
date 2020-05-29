@@ -7,44 +7,73 @@
     android:layout_height="match_parent"
     tools:context=".Encuesta">
 
-    <TextView
-        android:id="@+id/textView11"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        android:text="Usuario Conectado" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
+            android:text="Usuario Conectado" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <EditText
         android:id="@+id/etNombre6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView1"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Por que eligio este centro?" />
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Por que eligio este centro?" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/etNombre1"
-        android:layout_width="match_parent"
-        android:layout_height="34dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
-
-
-    <TextView
-        android:id="@+id/textView3"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Deporte que practicas" />
+        android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/etNombre1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:gravity="center"
+            android:text="Deporte que practicas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <CheckBox
         android:id="@+id/check"
         android:layout_width="match_parent"
@@ -62,17 +91,26 @@
         android:layout_width="match_parent"
         android:layout_height="19dp"
         android:text="Basket" />
+    </LinearLayout>
 
-
-    <TextView
-        android:id="@+id/textView4"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        android:text="Esta interesado en aprender un idioma aparte del ingles?" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+
+            android:gravity="center"
+            android:text="Esta interesado en aprender un idioma aparte del ingles?" />
+    </LinearLayout>
+
+
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/rb1"
@@ -86,35 +124,6 @@
             android:layout_height="19dp"
             android:text="No" />
 
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:text="Nombre " />
-
-        <EditText
-            android:id="@+id/et1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-
-        <TextView
-            android:id="@+id/textView77"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:text="Monto Final por cuotas " />
-
-        <EditText
-            android:id="@+id/et5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
 
         <Button
             android:id="@+id/btnAceptar"
@@ -124,4 +133,26 @@
             android:text="Enviar" />
 
     </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
 </LinearLayout>

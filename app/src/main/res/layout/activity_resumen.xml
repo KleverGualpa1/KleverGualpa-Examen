@@ -15,8 +15,8 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/download" />
+            android:layout_height="69dp"
+            app:srcCompat="@drawable/downloadd" />
     </LinearLayout>
 
     <TextView

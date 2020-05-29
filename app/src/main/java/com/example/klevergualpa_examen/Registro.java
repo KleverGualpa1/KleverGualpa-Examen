@@ -39,13 +39,14 @@ public class Registro extends AppCompatActivity {
     public void CalcularValores (View v){
 
         int valor1, valor2,valor3;
-        double res1,res2;
+        double res1,res2,res3;
         valor1=Integer.parseInt(etdato2.getText().toString());
         valor2=Integer.parseInt(etdato3.getText().toString());
-        //valor34=Integer.parseInt(dato5.getText().toString());
 
-        res1 = ((((valor1) - (valor2))/3))*0.05;
-        res2= ((valor1-valor2)+res1*3);
+
+        res1 = ((((valor1) - (valor2))/3))*1.05;
+        res2= res1*3;
+       // res2= ((valor1-valor2)+res1*3);
 
         etdato4.setText(Double.toString(res1));
         etdato5.setText(Double.toString(res2));

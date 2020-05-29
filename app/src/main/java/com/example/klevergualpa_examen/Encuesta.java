@@ -26,12 +26,12 @@ public class Encuesta extends AppCompatActivity {
 
         //dato para enviar
         etdato1= findViewById(R.id.et1);
-        etdato5= findViewById(R.id.et5);
+       etdato5= findViewById(R.id.et5);
         etdato6=findViewById(R.id.etNombre6);
 
 // dato recibido
-        tvrecibir1=findViewById(R.id.et1);
-        tvrecibir2=findViewById(R.id.et5);
+       tvrecibir1=findViewById(R.id.et1);
+       tvrecibir2=findViewById(R.id.et5);
         tvrecibir3=findViewById(R.id.etNombre6);
         datoRecibido=getIntent().getExtras();
 
